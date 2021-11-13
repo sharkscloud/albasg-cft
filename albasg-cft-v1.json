@@ -819,7 +819,7 @@
                 },
                 "MinSize": "2",
                 "MaxSzie": "4",
-                "DesiredSize": "2",
+                "DesiredSize": "3",
                 "Cooldown": "300",
                 "HealthCheckGracePeriod": "300",
                 "HealthCheckType": "ELB",
