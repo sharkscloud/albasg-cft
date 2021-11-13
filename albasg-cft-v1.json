@@ -806,7 +806,6 @@
                 "InstanceMonitoring": "true"
             }
         },
-        
         "AutoScalingGroup": {
             "Type": "AWS::AutoScaling::AutoScalingGroup",
             "Properties": {
