@@ -33,7 +33,7 @@ jobs:
       run: unzip awscliv2.zip
 
     - name: Start the command
-      run: sudo ./aws/install
+      run: sudo ./aws/install --update
 
     - name: Deploy CFT to AWS 
       run: aws cloudformation deploy --template-file albasg-cft-v1.json --stack-name alb-stack --parameter-overrides WebServerKeyName=bastion --region us-east-2
